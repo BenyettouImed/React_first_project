@@ -2,7 +2,6 @@ import React from 'react'
 import { useEffect,/* useContext */ } from 'react'
 import { useParams,Link, useNavigate } from 'react-router-dom'
 import { useStoreState, useStoreActions } from 'easy-peasy';
-import api from './api/posts'
 import { format } from 'date-fns'
 const EditPost = () => {
   
